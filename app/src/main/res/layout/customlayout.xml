@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@mipmap/ic_launcher"
+      />
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/colorTekstuModelek"
+        android:id="@+id/textView_imie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="TextView" />
+    <TextView
+        android:textColor="@color/colorTekstuModelek"
+        android:textStyle="bold"
+        android:id="@+id/textView_nazwisko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textView_imie"
+        android:layout_below="@+id/textView_imie"
+        android:text="TextView" />
+    <TextView
+
+        android:textColor="@color/colorTekstuModelek"
+        android:id="@+id/textView_miejscowosc"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textView_nazwisko"
+        android:layout_below="@+id/textView_nazwisko"
+        android:text="TextView" />
+
+
+
+    <TextView
+        android:id="@+id/textView_wiek"
+        android:textColor="@color/colorTekstuModelek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textView_miejscowosc"
+        android:layout_below="@+id/textView_miejscowosc"
+        android:text="TextView"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/textView_wzrost"
+        android:textColor="@color/colorTekstuModelek"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textView_wiek"
+        android:layout_below="@+id/textView_wiek"
+        android:text="TextView"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/textView_tura"
+        android:textColor="@color/colorTekstuModelek"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textView_wzrost"
+        android:layout_below="@+id/textView_wzrost"
+        android:text="TextView"
+        android:textSize="15sp" />
+
+
+
+</RelativeLayout>

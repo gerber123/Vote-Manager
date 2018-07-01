@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d2f3c</color>
+    <color name="colorPrimaryDark">#030516</color>
+    <color name="colorAccent">#565866</color>
+    <color name="colorTekstuModelek">#513359</color>
+    <color name="colorPanelAdmina">#ffc400</color>
+    <color name="colorPunktów">#d90a03</color>
+    <color name="colorPunktówFinalnych">#00ff2a</color>
+</resources>

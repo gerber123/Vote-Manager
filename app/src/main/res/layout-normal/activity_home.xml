@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grape"
+    tools:context="pl.marcinos.votecenter.Home">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ImageView
+            android:id="@+id/imageNastolatki"
+            android:layout_width="220dp"
+            android:layout_height="300dp"
+            android:padding="20dp"
+
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/missnastolatki" />
+
+        <ImageView
+            android:id="@+id/imageDorosle"
+            android:layout_width="220dp"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_alignParentEnd="true"
+            android:padding="20dp"
+            app:srcCompat="@drawable/missdorosla" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+
+            android:text="Wybierz kategorię"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+
+            android:foregroundGravity="center_vertical"
+            android:src="@drawable/logo" />
+        <TextView
+            android:id="@+id/textNastolatki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageNastolatki"
+            android:layout_alignStart="@+id/imageNastolatki"
+            android:layout_marginStart="52dp"
+            android:gravity="center"
+            android:text="Nastolatki"
+
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textDorosle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageDorosle"
+
+            android:layout_alignStart="@+id/imageDorosle"
+            android:layout_marginStart="62dp"
+            android:gravity="center"
+            android:text="Dorosłe"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

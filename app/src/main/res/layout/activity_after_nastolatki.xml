@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grape"
+    tools:context="pl.marcinos.votecenter.Nastolatki.AfterNastolatki">
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/buttonPierwszaTura"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="226dp"
+            android:text="Pierwsza Tura" />
+
+        <Button
+            android:id="@+id/buttonFinal"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/buttonPierwszaTura"
+            android:layout_below="@+id/buttonPierwszaTura"
+            android:layout_marginTop="18dp"
+            android:text="Finał" />
+
+        <Button
+            android:id="@+id/buttonWroc"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonFinal"
+            android:layout_below="@+id/buttonFinal"
+            android:layout_marginTop="19dp"
+            android:text="Wróć" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="74dp"
+            android:textSize="35dp"
+            android:textColor="@color/colorPanelAdmina"
+            android:textStyle="bold"
+            android:text="Nastolatki" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.marcinos.votecenter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ModelkiDorosle.Lista.ListaDorosle" />
+        <activity android:name=".Admin.HomeAdmin" />
+        <activity android:name=".Dorosle.AfterDorosle" />
+        <activity android:name=".Nastolatki.AfterNastolatki" />
+        <activity android:name=".ModelkiNastolatki.Lista.listaNastolatki" />
+        <activity android:name=".ModelkiDorosle.Lista.ListaDorosleFinal" />
+        <activity android:name=".Admin.DorosleAdmin" />
+        <activity android:name=".Admin.NastolatkiAdmin" />
+        <activity android:name=".Admin.PodgladDorosleAdmin" />
+        <activity android:name=".Admin.PodgladNastolatkiAdmin" />
+        <activity android:name=".Admin.NastolatkiPierwszaTuraAdmin" />
+        <activity android:name=".ModelkiNastolatki.Lista.ListaNastolatkiFinal" />
+        <activity android:name=".Admin.DoroslePierwszaTuraAdmin" />
+        <activity android:name=".Admin.NastUstawieniaAdmin" />
+        <activity android:name=".Admin.DoroUstawieniaAdmin" />
+        <activity android:name=".Admin.DorosleFinalTuraAdmin" />
+        <activity android:name=".Admin.NastolatkiFinalTuraAdmin" />
+        <activity android:name=".Admin.NastolatkiWynikiAdmin" />
+        <activity android:name=".Admin.DorosleWynikiAdmin" />
+        <activity android:name=".ModelkiDorosle.Lista.ListaDorosleTop15" />
+        <activity android:name=".Admin.DorosleTop15Tura"></activity>
+    </application>
+
+</manifest>

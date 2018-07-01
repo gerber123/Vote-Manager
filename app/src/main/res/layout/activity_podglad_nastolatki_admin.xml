@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.marcinos.votecenter.Admin.PodgladNastolatkiAdmin">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/grape">
+
+        <Button
+            android:id="@+id/buttonPierwszaTura"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="268dp"
+            android:text="Podglądaj wyniki pierwszej tury" />
+
+        <Button
+            android:id="@+id/buttonFinalPodglad"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonPierwszaTura"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="Podglądaj wyniki finału" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:text="Podgląd wyników - nastolatki"
+            android:textColor="@color/colorPanelAdmina"
+            android:gravity="center"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
+
